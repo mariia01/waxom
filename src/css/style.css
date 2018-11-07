@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url(../img/background.png) round;
+    height: 1020px;
+    position: relative;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+
+}
+
+.name a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+}
+
+.menu_el {
+ display: flex;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    justify-content: space-between;
+
+}
+.menu_el > :last-child {margin-right:60px;}
+.menu_el > :first-child {margin-left: 220px;}
